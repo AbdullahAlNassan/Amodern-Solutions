@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amodern Solutions - Moderne Websites voor Uw Bedrijf</title>
+    <meta name="description" content="Amodern Solutions bouwt professionele, moderne websites voor restaurants, barbershops, cafes, salons en meer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">Amodern <span>Solutions</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#diensten">Diensten</a></li>
+                <li><a href="#werkwijze">Werkwijze</a></li>
+                <li><a href="#prijzen">Prijzen</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Beschikbaar voor nieuwe projecten
+                </div>
+                <h1>Wij bouwen <br><span class="gradient-text">moderne websites</span><br> voor uw bedrijf</h1>
+                <p>Van restaurant tot barbershop, van salon tot cafe. Wij creeren professionele websites die uw klanten aanspreken en uw omzet verhogen.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Start uw project &#8594;</a>
+                    <a href="#diensten" class="btn-secondary">Bekijk onze diensten</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-graphic">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <div class="code-dot"></div>
+                            <div class="code-dot"></div>
+                            <div class="code-dot"></div>
+                        </div>
+                        <div class="code-lines">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                    <div class="floating-card card-1">
+                        <div class="card-icon">&#9889;</div>
+                        <div class="card-label">Laadtijd</div>
+                        <div class="card-value">0.8s</div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">&#128200;</div>
+                        <div class="card-label">Conversie</div>
+                        <div class="card-value">+45%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="50" data-suffix="+">0</div>
+                <div class="stat-label">Websites gebouwd</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="98" data-suffix="%">0</div>
+                <div class="stat-label">Tevreden klanten</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="3" data-suffix=" jaar">0</div>
+                <div class="stat-label">Ervaring</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="24" data-suffix="/7">0</div>
+                <div class="stat-label">Support</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diensten">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Onze Diensten</span>
+                <h2>Alles wat u nodig heeft</h2>
+                <p>Van ontwerp tot lancering, wij verzorgen het complete traject voor uw online aanwezigheid.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">&#127965;</div>
+                    <h3>Restaurant Websites</h3>
+                    <p>Prachtige websites met online menu's, reserveringssystemen en sfeervolle foto's die uw gasten al voor het bezoek verleiden.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">&#9986;</div>
+                    <h3>Barbershop Websites</h3>
+                    <p>Stijlvolle websites met online boekingssystemen, portfolios van uw werk en een uitstraling die past bij uw barbershop.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">&#9749;</div>
+                    <h3>Cafe Websites</h3>
+                    <p>Warme, uitnodigende websites die de sfeer van uw cafe perfect vastleggen, inclusief menukaart en evenementenkalender.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">&#128135;</div>
+                    <h3>Salon Websites</h3>
+                    <p>Elegante websites met online afspraken, behandelingsoverzichten en galerijen die uw expertise tonen.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">&#127790;</div>
+                    <h3>E-commerce Websites</h3>
+                    <p>Complete webshops met productcatalogi, betalingssystemen en voorraadbeheer voor uw online verkoop.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">&#128640;</div>
+                    <h3>Op Maat Gemaakt</h3>
+                    <p>Heeft u specifieke wensen? Wij bouwen maatwerk oplossingen die perfect aansluiten bij uw bedrijfsdoelen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="werkwijze">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Werkwijze</span>
+                <h2>Hoe wij werken</h2>
+                <p>Een helder en transparant proces van idee tot lancering.</p>
+            </div>
+            <div class="process-steps">
+                <div class="step fade-in">
+                    <div class="step-number">01</div>
+                    <h3>Kennismaking</h3>
+                    <p>We bespreken uw wensen, doelgroep en bedrijfsdoelen in een vrijblijvend gesprek.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">02</div>
+                    <h3>Ontwerp</h3>
+                    <p>We maken een uniek ontwerp dat perfect past bij uw merk en doelgroep.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">03</div>
+                    <h3>Ontwikkeling</h3>
+                    <p>We bouwen uw website met de nieuwste technologieen en beste praktijken.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">04</div>
+                    <h3>Lancering</h3>
+                    <p>Na goedkeuring gaat uw website live met volledige ondersteuning en hosting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prijzen">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Prijzen</span>
+                <h2>Transparante prijzen</h2>
+                <p>Kies het pakket dat het beste bij uw bedrijf past.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card fade-in">
+                    <h3>Starter</h3>
+                    <div class="price">&euro;399</div>
+                    <div class="price-note">Eenmalig</div>
+                    <ul class="pricing-features">
+                        <li><span class="check">&#10003;</span> One-page website</li>
+                        <li><span class="check">&#10003;</span> Responsive design</li>
+                        <li><span class="check">&#10003;</span> Contactformulier</li>
+                        <li><span class="check">&#10003;</span> SEO basis</li>
+                        
+                    </ul>
+                    <a href="#contact" class="btn-secondary" style="width: 100%; justify-content: center;">Kies Starter</a>
+                </div>
+                <div class="pricing-card featured fade-in">
+                    <div class="popular-badge">Meest gekozen</div>
+                    <h3>Professional</h3>
+                    <div class="price">&euro;699</div>
+                    <div class="price-note">Eenmalig</div>
+                    <ul class="pricing-features">
+                        <li><span class="check">&#10003;</span> Multi-page website</li>
+                        <li><span class="check">&#10003;</span> Responsive design</li>
+                        <li><span class="check">&#10003;</span> Online boekingssysteem</li>
+                        <li><span class="check">&#10003;</span> Google Maps integratie</li>
+                        <li><span class="check">&#10003;</span> SEO optimalisatie</li>
+                        
+                    </ul>
+                    <a href="#contact" class="btn-primary" style="width: 100%; justify-content: center;">Kies Professional</a>
+                </div>
+                <div class="pricing-card fade-in">
+                    <h3>Enterprise</h3>
+                    <div class="price">&euro;999</div>
+                    <div class="price-note">Eenmalig</div>
+                    <ul class="pricing-features">
+                        <li><span class="check">&#10003;</span> Maatwerk website</li>
+                        <li><span class="check">&#10003;</span> E-commerce functionaliteit</li>
+                        <li><span class="check">&#10003;</span> CMS systeem</li>
+                        <li><span class="check">&#10003;</span> Geavanceerde SEO</li>
+                        <li><span class="check">&#10003;</span> Analytics dashboard</li>
+                        
+                    </ul>
+                    <a href="#contact" class="btn-secondary" style="width: 100%; justify-content: center;">Kies Enterprise</a>
+                </div>
+            </div>
+            <div class="subscription-banner fade-in">
+                <div class="subscription-content">
+                    <div class="subscription-text">
+                        <span class="section-tag">Optioneel</span>
+                        <h3>Onderhoud & Support Abonnement</h3>
+                        <p>Houd uw website altijd up-to-date, veilig en optimaal presterend met ons maandelijks abonnement. Inclusief updates, backups, kleine aanpassingen en prioriteit support.</p>
+                    </div>
+                    <div class="subscription-price">
+                        <div class="price">&euro;29</div>
+                        <div class="price-note">per maand</div>
+                        <a href="#contact" class="btn-primary" style="margin-top: 16px;">Meer info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Reviews</span>
+                <h2>Wat klanten zeggen</h2>
+                <p>Ontdek waarom bedrijven voor Amodern Solutions kiezen.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Onze nieuwe website heeft onze online reserveringen met 60% doen stijgen. Het team van Amodern Solutions begrijpt exact wat een restaurant nodig heeft."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MV</div>
+                        <div class="author-info">
+                            <div class="name">Marco Visser</div>
+                            <div class="role">Eigenaar, La Dolce Vita</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Professioneel, snel en precies wat we zochten. De online boekingstool werkt perfect en onze klanten zijn er dol op."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SB</div>
+                        <div class="author-info">
+                            <div class="name">Said Benali</div>
+                            <div class="role">Eigenaar, The Sharp Edge</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Vanaf het eerste gesprek voelde het vertrouwd. Ze denken echt mee en leveren altijd meer dan verwacht. Absolute aanrader!"</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LJ</div>
+                        <div class="author-info">
+                            <div class="name">Lisa de Jong</div>
+                            <div class="role">Eigenaar, Glow Beauty Studio</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Contact</span>
+                <h2>Laten we praten</h2>
+                <p>Klaar om uw bedrijf online te laten groeien? Neem vandaag nog contact op.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h3>Neem contact op</h3>
+                    <p>Heeft u vragen of wilt u een vrijblijvende offerte? We horen graag van u.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">&#128231;</div>
+                            <div>
+                                <div class="label">E-mail</div>
+                                <div class="value">info@amodernsolutions.nl</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">&#128222;</div>
+                            <div>
+                                <div class="label">Telefoon</div>
+                                <div class="value">+31 6 47889820</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">&#128205;</div>
+                            <div>
+                                <div class="label">Locatie</div>
+                                <div class="value">AmsterdamNederland</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Naam</label>
+                            <input type="text" id="name" name="name" placeholder="Uw volledige naam" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="info@amodernsolutions.nl" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Dienst</label>
+                            <select id="service" name="service">
+                                <option value="">Selecteer een dienst</option>
+                                <option value="restaurant">Restaurant Website</option>
+                                <option value="barbershop">Barbershop Website</option>
+                                <option value="cafe">Cafe Website</option>
+                                <option value="salon">Salon Website</option>
+                                <option value="ecommerce">E-commerce Website</option>
+                                <option value="custom">Op Maat Gemaakt</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Bericht</label>
+                            <textarea id="message" name="message" placeholder="Vertel ons over uw project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Verstuur bericht &#8594;</button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">Amodern <span>Solutions</span></div>
+                    <p>Wij bouwen moderne, professionele websites die uw bedrijf laten groeien.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Facebook">fb</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Diensten</h4>
+                    <ul>
+                        <li><a href="#diensten">Restaurants</a></li>
+                        <li><a href="#diensten">Barbershops</a></li>
+                        <li><a href="#diensten">Cafes</a></li>
+                        <li><a href="#diensten">Salons</a></li>
+                        <li><a href="#diensten">E-commerce</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Bedrijf</h4>
+                    <ul>
+                        <li><a href="#home">Over ons</a></li>
+                        <li><a href="#werkwijze">Werkwijze</a></li>
+                        <li><a href="#prijzen">Prijzen</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#contact">Offerte aanvragen</a></li>
+                        <li><a href="mailto:info@amodernsolutions.nl">E-mail ons</a></li>
+                        <li><a href="tel:+31612345678">Bel ons</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Amodern Solutions. Alle rechten voorbehouden.
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
